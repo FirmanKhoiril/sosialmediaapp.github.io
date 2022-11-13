@@ -11,7 +11,6 @@ import { IUser, Video } from "../../types";
 import { BASE_URL } from "../../utils";
 
 const Search = ({ videos }: { videos: Video[] }) => {
-  const [showUserVideos, setShowUserVideos] = useState(false);
   const [isAccount, setIsAccount] = useState(false);
   const { allUsers } = useAuthStore();
   const router = useRouter();
