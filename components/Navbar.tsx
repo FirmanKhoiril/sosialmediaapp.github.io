@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <div className="w-full flex justify-between items-center border-b-2 border-gray-200 py-2 px-4">
       <Link href="/">
-        <div className="w-[100px] md:h-[30px] h-[38px] md:w-[110px]">
+        <div className="w-[170px] md:h-[30px] h-[38px] md:w-[140px]">
           <Image src={logo} alt="sosmed App" className="cursor-pointer" layout="responsive" />
         </div>
       </Link>
