@@ -71,8 +71,8 @@ const Upload = () => {
       <div className="bg-white w-[70%] xl:h-[80vh] flex gap-6 flex-wrap justify-center items-center p-14 pt-6 rounded-lg">
         <div>
           <div>
-            <p className="text-2xl font-bold">Upload Video</p>
-            <p className="text-md text-gray-400 mt-1">Post video to your account</p>
+            <p className="text-2xl text-center font-bold">Upload Video</p>
+            <p className="text-md text-center text-gray-400 mt-1">Post video to your account</p>
           </div>
           <div className="border-dashed rounded-xl border-4 border-gray-200 flex flex-col justify-center items-center outline-none mt-10 w-[260px] h-[460px] p-10 cursor-pointer hover:border-red-300 hover:bg-gray-100">
             {isLoading ? (
