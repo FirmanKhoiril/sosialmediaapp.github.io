@@ -120,7 +120,7 @@ const Upload = () => {
             ))}
           </select>
           <div className="flex gap-6 mt-10">
-            <button onClick={() => {}} className="border-gray-300 border-2 text-md font-medium p-2 rounded w-28 lg:w-44 outline-none hover:border-[#f51997]" type="button">
+            <button onClick={handlePost} className="border-gray-300 border-2 text-md font-medium p-2 rounded w-28 lg:w-44 outline-none hover:border-[#f51997]" type="button">
               Discard
             </button>
             <button onClick={handlePost} className="bg-[#f51997] text-white hover:opacity-90 text-md font-medium p-2 rounded w-28 lg:w-44 outline-none hover:border-[#f51997]" type="button">
