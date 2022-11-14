@@ -34,7 +34,7 @@ const Comments = ({ comment, setComment, addComment, comments, isPostingComment 
               {allUsers?.map(
                 (user: IUser) =>
                   user._id === (item.postedBy._ref || item.postedBy._id) && (
-                    <div className="border-b-[1px] border-black mb-2 p-2 items-center" key={idx}>
+                    <div className="border-b-[1px] border-gray-300 mb-2 p-2 items-center" key={idx}>
                       <Link href={`/profile/${user._id}`}>
                         <div className="flex items-start gap-3">
                           <div className="w-12 h-12">
